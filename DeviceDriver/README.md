@@ -14,7 +14,7 @@ W celu kompilacji madułu należy z poziomu katalogu modułu wywołać: `make`
 make
 ```
 
-W celu załadowania modułu należy wywołać komendę: `make laod`. Po wywołaniu komendy uruchomiony zostanie dodatkowy emulator terminala na którym będą wyświetlone (odświeżane co 1s) informację zwrócone przez `dmesg` z filtrem ustawionym na nazwę modułu.
+W celu załadowania modułu należy wywołać komendę: `make load`. Po wywołaniu komendy uruchomiony zostanie dodatkowy emulator terminala na którym będą wyświetlone (odświeżane co 1s) informację zwrócone przez `dmesg` z filtrem ustawionym na nazwę modułu.
 
 ```bash
 make load
@@ -56,10 +56,10 @@ cat /sys/module/kicdev/parameters/irq
 1
 ```
 
-W celu odłączenia modułu należy wywołać komendę: `make unlaod`
+W celu odłączenia modułu należy wywołać komendę: `make unload`
 
 ```bash
-make load
+make unload
 ```
 
 ## Użycie
@@ -118,6 +118,6 @@ Choose Operation:
 
 ---
 
-### ¶ Koniec
+### Koniec
 
 

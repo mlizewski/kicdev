@@ -169,6 +169,6 @@ module_init(kicdev_init);
 module_exit(kicdev_exit);
 
 MODULE_LICENSE("GPL v2");
-MODULE_AUTHOR("Marcin Liżewski <marcin.lizewski@gmail.com>");
+MODULE_AUTHOR("Marcin Liżewski <marcin.lizewski(at)gmail.com>");
 MODULE_DESCRIPTION("Keyboard Interrupt Counter (KIC) Module");
 
